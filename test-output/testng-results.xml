@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T09:30:49 IST" name="Default suite" finished-at="2024-12-14T09:31:10 IST" duration-ms="21267">
+    <groups>
+    </groups>
+    <test started-at="2024-12-14T09:30:49 IST" name="Default test" finished-at="2024-12-14T09:31:10 IST" duration-ms="21267">
+      <class name="TestCases.LoginLogout">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.LoginLogout@635eaaf1]" started-at="2024-12-14T09:30:49 IST" name="setUp" finished-at="2024-12-14T09:30:59 IST" duration-ms="10607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginActiTime()[pri:0, instance:TestCases.LoginLogout@635eaaf1]" started-at="2024-12-14T09:31:00 IST" name="loginActiTime" finished-at="2024-12-14T09:31:03 IST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginActiTime -->
+        <test-method signature="logoutActiTime()[pri:0, instance:TestCases.LoginLogout@635eaaf1]" started-at="2024-12-14T09:31:03 IST" name="logoutActiTime" finished-at="2024-12-14T09:31:08 IST" depends-on-methods="TestCases.LoginLogout.loginActiTime" duration-ms="5301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutActiTime -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginLogout@635eaaf1]" started-at="2024-12-14T09:31:08 IST" name="tearDown" finished-at="2024-12-14T09:31:10 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LoginLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
